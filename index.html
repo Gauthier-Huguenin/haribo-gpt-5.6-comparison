@@ -4,160 +4,129 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="One prompt, three GPT-5.6 models, three independently generated HARIBO landing pages.">
-    <meta name="theme-color" content="#ef3f36">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="GPT-5.6 HARIBO Landing Page Comparison">
-    <meta property="og:description" content="Explore three complete landing pages built from the same simple prompt by GPT-5.6 Sol, Terra and Luna.">
+    <meta property="og:title" content="One prompt. Three GPT-5.6 models.">
+    <meta property="og:description" content="Explore the complete HARIBO landing pages created by GPT-5.6 Sol, Terra and Luna.">
     <meta property="og:url" content="https://gauthier-huguenin.github.io/haribo-gpt-5.6-comparison/">
     <meta property="og:image" content="https://gauthier-huguenin.github.io/haribo-gpt-5.6-comparison/assets/social-preview.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="One prompt. Three GPT-5.6 models.">
-    <meta name="twitter:description" content="Explore the three complete HARIBO landing pages.">
+    <meta name="twitter:description" content="Open and compare every complete landing page.">
     <meta name="twitter:image" content="https://gauthier-huguenin.github.io/haribo-gpt-5.6-comparison/assets/social-preview.png">
-    <title>GPT-5.6 × HARIBO — Landing Page Comparison</title>
+    <title>GPT-5.6 HARIBO comparison</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="grain" aria-hidden="true"></div>
-
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Back to top">
-        <span class="brand-mark">AI</span>
-        <span>Landing Page Test</span>
-      </a>
-      <nav aria-label="Main navigation">
-        <a href="#results">Results</a>
-        <a href="#method">Method</a>
-        <a class="source-link" href="https://github.com/Gauthier-Huguenin/haribo-gpt-5.6-comparison" target="_blank" rel="noreferrer">View source <span>↗</span></a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="eyebrow"><span></span> Controlled frontend experiment · July 2026</div>
-        <h1>One prompt.<br><em>Three</em> GPT-5.6 models.</h1>
-        <p class="hero-copy">Sol, Terra and Luna each started inside an empty folder. No starter files, no design system and no second attempt.</p>
-
-        <div class="prompt-card">
-          <div class="prompt-label">The complete prompt</div>
-          <blockquote>“No skills are allowed. Create a beautiful landing page for HARIBO using only plain AI. Make it playful, colorful, and tangy. Use the real HARIBO logo and download real candy product images from the web. It must have at least five sections, with the hero section on top.”</blockquote>
-          <div class="prompt-meta">
-            <span>Same prompt</span>
-            <span>Medium effort</span>
-            <span>Separate Codex CLI sessions</span>
-          </div>
-        </div>
-
-        <a class="scroll-cue" href="#results">Explore the results <span>↓</span></a>
-      </section>
-
-      <section class="results" id="results">
-        <div class="section-heading">
-          <div>
-            <span class="kicker">The outputs</span>
-            <h2>Three distinct directions</h2>
-          </div>
-          <p>Open each result to explore the complete working page, not just the screenshot.</p>
-        </div>
-
-        <div class="model-grid">
-          <article class="model-card card-sol">
-            <a class="preview" href="sol/" target="_blank" aria-label="Open the complete GPT-5.6 Sol landing page">
-              <img src="assets/sol-preview.png" alt="GPT-5.6 Sol HARIBO landing page preview" width="1440" height="1000">
-              <span class="open-pill">Open full page ↗</span>
-            </a>
-            <div class="card-body">
-              <div class="card-title-row"><h3>GPT-5.6 Sol</h3><span class="verdict">Best overall</span></div>
-              <p>The richest visual system, the widest product selection and the most campaign-ready execution.</p>
-              <dl>
-                <div><dt>Duration</dt><dd>5m 53s</dd></div>
-                <div><dt>Total tokens</dt><dd>790,573</dd></div>
-                <div><dt>API estimate</dt><dd>$1.18</dd></div>
-              </dl>
-              <a class="card-cta" href="sol/" target="_blank">Explore Sol <span>↗</span></a>
-            </div>
-          </article>
-
-          <article class="model-card card-terra">
-            <a class="preview" href="terra/" target="_blank" aria-label="Open the complete GPT-5.6 Terra landing page">
-              <img src="assets/terra-preview.png" alt="GPT-5.6 Terra HARIBO landing page preview" width="1440" height="1000">
-              <span class="open-pill">Open full page ↗</span>
-            </a>
-            <div class="card-body">
-              <div class="card-title-row"><h3>GPT-5.6 Terra</h3><span class="verdict">Best balance</span></div>
-              <p>The fastest run, with a compact editorial direction and a consistently strong composition.</p>
-              <dl>
-                <div><dt>Duration</dt><dd>4m 10s</dd></div>
-                <div><dt>Total tokens</dt><dd>659,058</dd></div>
-                <div><dt>API estimate</dt><dd>$0.42</dd></div>
-              </dl>
-              <a class="card-cta" href="terra/" target="_blank">Explore Terra <span>↗</span></a>
-            </div>
-          </article>
-
-          <article class="model-card card-luna">
-            <a class="preview" href="luna/" target="_blank" aria-label="Open the complete GPT-5.6 Luna landing page">
-              <img src="assets/luna-preview.png" alt="GPT-5.6 Luna HARIBO landing page preview" width="1440" height="1000">
-              <span class="open-pill">Open full page ↗</span>
-            </a>
-            <div class="card-body">
-              <div class="card-title-row"><h3>GPT-5.6 Luna</h3><span class="verdict">Lowest cost</span></div>
-              <p>A bold red art direction and the lowest API estimate, although it was the slowest run.</p>
-              <dl>
-                <div><dt>Duration</dt><dd>11m 39s</dd></div>
-                <div><dt>Total tokens</dt><dd>767,485</dd></div>
-                <div><dt>API estimate</dt><dd>$0.22</dd></div>
-              </dl>
-              <a class="card-cta" href="luna/" target="_blank">Explore Luna <span>↗</span></a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="method" id="method">
-        <div class="method-intro">
-          <span class="kicker">Methodology</span>
-          <h2>Kept deliberately simple</h2>
-          <p>This is not a scientific benchmark. It is a controlled creative test designed to show what each model builds from the same short brief.</p>
-        </div>
-        <ol class="steps">
-          <li><span>01</span><div><h3>Empty folders</h3><p>Each model received a separate directory with no existing code or assets.</p></div></li>
-          <li><span>02</span><div><h3>Identical instructions</h3><p>The same prompt and medium reasoning effort were used for every run.</p></div></li>
-          <li><span>03</span><div><h3>Independent execution</h3><p>Each Codex CLI session selected, downloaded and integrated its own assets.</p></div></li>
-          <li><span>04</span><div><h3>Unedited results</h3><p>The published landing pages are the original outputs. No visual cleanup was applied.</p></div></li>
-        </ol>
-      </section>
-
-      <section class="numbers">
-        <div class="section-heading compact">
-          <div><span class="kicker">Recorded usage</span><h2>The numbers behind the pages</h2></div>
-        </div>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Model</th><th>Duration</th><th>Input tokens</th><th>Cached input</th><th>Output tokens</th><th>API estimate</th></tr></thead>
-            <tbody>
-              <tr><th>GPT-5.6 Sol</th><td>5m 53s</td><td>776,412</td><td>694,528</td><td>14,161</td><td>$1.18</td></tr>
-              <tr><th>GPT-5.6 Terra</th><td>4m 10s</td><td>649,495</td><td>597,760</td><td>9,563</td><td>$0.42</td></tr>
-              <tr><th>GPT-5.6 Luna</th><td>11m 39s</td><td>758,752</td><td>659,712</td><td>8,733</td><td>$0.22</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="pricing-note">The runs were included in a Codex subscription. API estimates are calculated from recorded token usage using OpenAI’s public standard pricing on July 16, 2026; they are not actual charges.</p>
-      </section>
-
-      <aside class="disclaimer">
-        <strong>Independent experiment.</strong>
-        <p>This project is an educational AI comparison and is not affiliated with, endorsed by or sponsored by HARIBO. HARIBO names, logos, packaging and product imagery belong to their respective owners.</p>
+    <div class="layout">
+      <aside class="rail" aria-label="Primary navigation">
+        <a class="x-mark" href="#top" aria-label="Home">𝕏</a>
+        <nav>
+          <a href="#results" aria-label="Results"><span>⌂</span><b>Results</b></a>
+          <a href="#method" aria-label="Method"><span>≡</span><b>Method</b></a>
+          <a href="https://github.com/Gauthier-Huguenin/haribo-gpt-5.6-comparison" target="_blank" rel="noreferrer" aria-label="Source code"><span>↗</span><b>Source</b></a>
+        </nav>
       </aside>
-    </main>
 
-    <footer>
-      <p>Built as a transparent one-prompt comparison.</p>
-      <a href="https://github.com/Gauthier-Huguenin/haribo-gpt-5.6-comparison" target="_blank" rel="noreferrer">Source code on GitHub ↗</a>
-    </footer>
+      <main class="feed" id="top">
+        <header class="topbar">
+          <div><h1>AI landing page test</h1><span>3 models</span></div>
+        </header>
+
+        <article class="post intro-post">
+          <div class="avatar">GH</div>
+          <div class="post-content">
+            <div class="author"><strong>Gauthier Huguenin</strong><span>@Gauthier-Huguenin · July 16</span></div>
+            <p class="lead">One simple prompt. Three GPT-5.6 models. Three completely different HARIBO landing pages.</p>
+            <p>Each model started inside an empty folder with the same medium reasoning effort. No skills, no starter files and no second attempt.</p>
+            <div class="prompt">
+              <span>The complete prompt</span>
+              <p>“No skills are allowed. Create a beautiful landing page for HARIBO using only plain AI. Make it playful, colorful, and tangy. Use the real HARIBO logo and download real candy product images from the web. It must have at least five sections, with the hero section on top.”</p>
+            </div>
+            <div class="post-meta"><span>Separate Codex CLI sessions</span><span>Unedited outputs</span></div>
+          </div>
+        </article>
+
+        <section id="results" aria-label="Model results">
+          <article class="post model-post">
+            <div class="avatar model-avatar sol-avatar">S</div>
+            <div class="post-content">
+              <div class="author"><strong>GPT-5.6 Sol</strong><span>@OpenAI · medium effort</span></div>
+              <p>The most ambitious result. Sol created the richest visual system, used the widest product selection and produced the most campaign-ready page.</p>
+              <a class="media" href="sol/" target="_blank" aria-label="Open GPT-5.6 Sol landing page">
+                <img src="assets/sol-preview.png" alt="GPT-5.6 Sol HARIBO landing page" width="1440" height="1000">
+                <span class="media-label">Open full landing page ↗</span>
+              </a>
+              <div class="metrics"><span><small>Duration</small>5m 53s</span><span><small>Total tokens</small>790,573</span><span><small>API estimate</small>$1.18</span></div>
+              <a class="open-link" href="sol/" target="_blank"><span>↗</span> Explore Sol</a>
+            </div>
+          </article>
+
+          <article class="post model-post">
+            <div class="avatar model-avatar terra-avatar">T</div>
+            <div class="post-content">
+              <div class="author"><strong>GPT-5.6 Terra</strong><span>@OpenAI · medium effort</span></div>
+              <p>The fastest result and the strongest balance. Terra produced a compact page with a clear editorial direction and consistent composition.</p>
+              <a class="media" href="terra/" target="_blank" aria-label="Open GPT-5.6 Terra landing page">
+                <img src="assets/terra-preview.png" alt="GPT-5.6 Terra HARIBO landing page" width="1440" height="1000">
+                <span class="media-label">Open full landing page ↗</span>
+              </a>
+              <div class="metrics"><span><small>Duration</small>4m 10s</span><span><small>Total tokens</small>659,058</span><span><small>API estimate</small>$0.42</span></div>
+              <a class="open-link" href="terra/" target="_blank"><span>↗</span> Explore Terra</a>
+            </div>
+          </article>
+
+          <article class="post model-post">
+            <div class="avatar model-avatar luna-avatar">L</div>
+            <div class="post-content">
+              <div class="author"><strong>GPT-5.6 Luna</strong><span>@OpenAI · medium effort</span></div>
+              <p>The cheapest result, but surprisingly the slowest. Luna chose a bold red direction with a simpler and more direct visual system.</p>
+              <a class="media" href="luna/" target="_blank" aria-label="Open GPT-5.6 Luna landing page">
+                <img src="assets/luna-preview.png" alt="GPT-5.6 Luna HARIBO landing page" width="1440" height="1000">
+                <span class="media-label">Open full landing page ↗</span>
+              </a>
+              <div class="metrics"><span><small>Duration</small>11m 39s</span><span><small>Total tokens</small>767,485</span><span><small>API estimate</small>$0.22</span></div>
+              <a class="open-link" href="luna/" target="_blank"><span>↗</span> Explore Luna</a>
+            </div>
+          </article>
+        </section>
+
+        <article class="post" id="method">
+          <div class="avatar">i</div>
+          <div class="post-content">
+            <div class="author"><strong>About this test</strong><span>@methodology</span></div>
+            <div class="method-list">
+              <p><b>01</b> One empty folder per model.</p>
+              <p><b>02</b> The same prompt and medium reasoning effort.</p>
+              <p><b>03</b> Separate, independent Codex CLI sessions.</p>
+              <p><b>04</b> No manual visual cleanup after generation.</p>
+            </div>
+            <p class="note">The runs were included in a Codex subscription. API estimates use recorded token usage and OpenAI’s public standard pricing on July 16, 2026; they are not actual charges.</p>
+          </div>
+        </article>
+
+        <aside class="disclaimer"><b>Independent educational experiment.</b> This project is not affiliated with, endorsed by or sponsored by HARIBO. Brand names, packaging and product imagery belong to their respective owners.</aside>
+      </main>
+
+      <aside class="sidebar">
+        <section class="side-card">
+          <h2>About this test</h2>
+          <p>A transparent comparison of three GPT-5.6 models given the same small frontend brief.</p>
+          <a href="#method">View methodology</a>
+        </section>
+        <section class="side-card quick-links">
+          <h2>Open a result</h2>
+          <a href="sol/" target="_blank"><span class="mini-avatar sol-avatar">S</span><div><b>GPT-5.6 Sol</b><small>Best overall</small></div><i>↗</i></a>
+          <a href="terra/" target="_blank"><span class="mini-avatar terra-avatar">T</span><div><b>GPT-5.6 Terra</b><small>Best balance</small></div><i>↗</i></a>
+          <a href="luna/" target="_blank"><span class="mini-avatar luna-avatar">L</span><div><b>GPT-5.6 Luna</b><small>Lowest cost</small></div><i>↗</i></a>
+        </section>
+        <footer><a href="https://github.com/Gauthier-Huguenin/haribo-gpt-5.6-comparison" target="_blank" rel="noreferrer">GitHub</a><span>·</span><a href="#method">Method</a><span>·</span><span>Not affiliated with HARIBO</span></footer>
+      </aside>
+    </div>
   </body>
 </html>
