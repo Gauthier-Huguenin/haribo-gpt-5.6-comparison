@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A playful celebration of HARIBO gummies — bright, fruity, and full of happy.">
+  <title>HARIBO — Share Happy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=DM+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="HARIBO home">
+      <img src="assets/haribo-logo.png" alt="HARIBO">
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#favorites">The good stuff</a>
+      <a href="#world">Our world</a>
+      <a href="#mix">Find your flavor</a>
+    </nav>
+    <a class="pill-button small" href="#favorites">Grab a bag <span>↗</span></a>
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Since 1922 · still wildly delicious</p>
+        <h1>Life is better<br>with a little <em>zing.</em></h1>
+        <p class="hero-intro">Chewy, fruity, sweet, sour — happiness comes in every color. Pick your favorite, rip it open, and pass the fun around.</p>
+        <div class="hero-actions">
+          <a class="pill-button dark" href="#favorites">Taste the rainbow <span>↓</span></a>
+          <button class="play-button" type="button" data-scroll="#world"><i>▶</i> See what makes us happy</button>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="A bag of HARIBO Goldbears surrounded by colorful gummies">
+        <span class="sunburst"></span>
+        <span class="fruit fruit-lemon">LEMON<br><b>POP!</b></span>
+        <span class="gummy gummy-red g1"></span>
+        <span class="gummy gummy-green g2"></span>
+        <span class="gummy gummy-orange g3"></span>
+        <span class="gummy gummy-red g4"></span>
+        <span class="sparkle s1">✦</span><span class="sparkle s2">✦</span>
+        <div class="bag-wrap">
+          <img src="assets/goldbears.png" alt="HARIBO Goldbears bag">
+        </div>
+        <div class="taste-stamp"><span>6</span><b>FRUITY<br>FLAVORS</b></div>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="social-proof">
+          <div class="mini-bears"><i></i><i></i><i></i></div>
+          <p><b>100 million</b><br>Goldbears made every day</p>
+        </div>
+        <a href="#favorites" class="scroll-cue">SCROLL FOR A TREAT <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="HARIBO flavors">
+      <div class="ticker-track">
+        <span>SWEET</span><b>✦</b><span>SOUR</span><b>✦</b><span>CHEWY</span><b>✦</b><span>FRUITY</span><b>✦</b><span>HAPPY</span><b>✦</b>
+        <span>SWEET</span><b>✦</b><span>SOUR</span><b>✦</b><span>CHEWY</span><b>✦</b><span>FRUITY</span><b>✦</b><span>HAPPY</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="favorites section" id="favorites">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow red"><span></span> Fan favorites</p>
+          <h2>Pick your<br><em>happy.</em></h2>
+        </div>
+        <p>There’s no wrong choice here. Just bright, bouncy bites made for sharing — or not. We don’t judge.</p>
+      </div>
+
+      <div class="product-shell">
+        <button class="slider-arrow prev" type="button" aria-label="Previous products">←</button>
+        <div class="product-track" tabindex="0">
+          <article class="product-card yellow">
+            <span class="card-number">01</span><span class="badge">THE ICON</span>
+            <div class="product-image"><span class="blob"></span><img src="assets/goldbears.png" alt="HARIBO Goldbears"></div>
+            <h3>Goldbears</h3><p>Six fruity flavors. One legendary little bear.</p>
+          </article>
+          <article class="product-card green">
+            <span class="card-number">02</span><span class="badge">SWEET + SOUR</span>
+            <div class="product-image"><span class="blob"></span><img src="assets/twin-snakes.png" alt="HARIBO Twin Snakes"></div>
+            <h3>Twin Snakes</h3><p>Two sides, two flavors, one tangy twist.</p>
+          </article>
+          <article class="product-card blue">
+            <span class="card-number">03</span><span class="badge">MIX IT UP</span>
+            <div class="product-image"><span class="blob"></span><img src="assets/starmix.png" alt="HARIBO Starmix"></div>
+            <h3>Starmix</h3><p>A whole galaxy of soft, squishy favorites.</p>
+          </article>
+          <article class="product-card pink">
+            <span class="card-number">04</span><span class="badge">PUCKER UP</span>
+            <div class="product-image"><span class="blob"></span><img src="assets/sour-goldbears.png" alt="HARIBO Sour Goldbears"></div>
+            <h3>Sour Goldbears</h3><p>The original bears with a sparkling sour kick.</p>
+          </article>
+          <article class="product-card orange">
+            <span class="card-number">05</span><span class="badge">FIZZY FEELING</span>
+            <div class="product-image"><span class="blob"></span><img src="assets/happy-cola.png" alt="HARIBO Happy Cola"></div>
+            <h3>Happy-Cola</h3><p>Classic cola taste in an iconic chewy bottle.</p>
+          </article>
+          <article class="product-card melon">
+            <span class="card-number">06</span><span class="badge">JUICY BITE</span>
+            <div class="product-image"><span class="blob"></span><img src="assets/watermelon.png" alt="HARIBO Watermelon"></div>
+            <h3>Watermelon</h3><p>Sweet, tangy slices of summertime joy.</p>
+          </article>
+        </div>
+        <button class="slider-arrow next" type="button" aria-label="Next products">→</button>
+      </div>
+      <div class="swipe-note"><span>←</span> DRAG TO EXPLORE <span>→</span></div>
+    </section>
+
+    <section class="world section" id="world">
+      <div class="world-photo">
+        <img src="assets/candy-party.jpg" alt="Colorful HARIBO gummies and Goldbears bag">
+        <div class="roundel"><span>HAPPY WORLD OF</span><img src="assets/haribo-logo.png" alt="HARIBO"></div>
+      </div>
+      <div class="world-copy">
+        <p class="eyebrow light"><span></span> More than candy</p>
+        <h2>A tiny bite of<br><em>big happiness.</em></h2>
+        <p>Some joys don’t need an occasion. A road-trip bag. A movie-night mix. The last red bear you saved for someone special. For over a century, HARIBO has made the little moments brighter.</p>
+        <div class="stats">
+          <div><strong>100+</strong><span>countries<br>sharing happy</span></div>
+          <div><strong>1,000+</strong><span>colorful<br>products worldwide</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ingredients section">
+      <p class="eyebrow red center"><span></span> The recipe for joy <span></span></p>
+      <h2>Big flavor.<br><em>Small package.</em></h2>
+      <div class="ingredient-row">
+        <article><span class="icon orange-slice">◒</span><b>01</b><h3>Boldly fruity</h3><p>Bright flavor that shows up from the very first chew.</p></article>
+        <article><span class="icon squiggle">〰</span><b>02</b><h3>Perfectly chewy</h3><p>That unmistakable bounce you know with your eyes closed.</p></article>
+        <article><span class="icon star">✦</span><b>03</b><h3>Seriously playful</h3><p>Funny shapes, joyful colors, zero boring bites.</p></article>
+        <article><span class="icon heart">♥</span><b>04</b><h3>Made to share</h3><p>Because happy tastes better when you pass it around.</p></article>
+      </div>
+    </section>
+
+    <section class="flavor-lab section" id="mix">
+      <div class="lab-copy">
+        <p class="eyebrow light"><span></span> The flavor lab</p>
+        <h2>What’s your<br><em>gummi mood?</em></h2>
+        <p>Slide from sunny-sweet to face-scrunchingly sour. We’ll match you with your perfect bag.</p>
+        <div class="range-labels"><span>Sweet & mellow</span><span>Sour & wild</span></div>
+        <input id="flavor-range" type="range" min="0" max="100" value="35" aria-label="Choose a flavor mood from sweet to sour">
+        <button id="flavor-button" class="pill-button yellow-btn" type="button">Find my flavor <span>→</span></button>
+      </div>
+      <div class="match-card" aria-live="polite">
+        <span class="match-kicker">YOUR MATCH IS...</span>
+        <div class="match-burst"></div>
+        <img id="match-image" src="assets/goldbears.png" alt="HARIBO Goldbears">
+        <div class="match-name"><small>CLASSICALLY HAPPY</small><strong id="match-title">Goldbears</strong></div>
+      </div>
+    </section>
+
+    <section class="join section">
+      <div class="join-inner">
+        <span class="join-gummy one"></span><span class="join-gummy two"></span><span class="join-gummy three"></span>
+        <p class="eyebrow red center"><span></span> Fresh from the bag <span></span></p>
+        <h2>Get the good stuff.</h2>
+        <p>Sweet news, playful ideas, and first dibs on new flavors — delivered with a little extra bounce.</p>
+        <form class="signup-form">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" placeholder="Your email address" required>
+          <button type="submit">JOIN THE HAPPY LIST <span>→</span></button>
+        </form>
+        <p class="form-message" role="status"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo"><img src="assets/haribo-logo.png" alt="HARIBO"><p>Kids and grown-ups love it so,<br>the happy world of HARIBO.</p></div>
+    <div class="footer-links"><div><b>EXPLORE</b><a href="#favorites">Products</a><a href="#world">Our story</a><a href="#mix">Flavor finder</a></div><div><b>FOLLOW THE FUN</b><a href="https://www.instagram.com/haribo_usa/">Instagram ↗</a><a href="https://www.tiktok.com/@haribo">TikTok ↗</a><a href="https://www.youtube.com/user/HARIBOUSA">YouTube ↗</a></div></div>
+    <div class="footer-bottom"><span>© 2026 HARIBO</span><span>Made for happy moments.</span><a href="#top">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
