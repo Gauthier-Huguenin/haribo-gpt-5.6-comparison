@@ -17,9 +17,13 @@ body { margin: 0; background: var(--bg); color: var(--text); }
 a { color: inherit; }
 .layout { width: min(1265px, 100%); min-height: 100vh; margin: 0 auto; display: grid; grid-template-columns: 240px 620px 350px; gap: 28px; }
 
-.rail { min-height: 100vh; padding: 12px 18px; position: sticky; top: 0; align-self: start; }
-.x-mark { display: grid; place-items: center; width: 50px; height: 50px; margin-bottom: 13px; border-radius: 50%; text-decoration: none; font-size: 29px; transition: background .15s; }
-.x-mark:hover, .rail nav a:hover { background: var(--hover); }
+.rail { min-height: 100vh; padding: 16px 12px; position: sticky; top: 0; align-self: start; }
+.profile-link { max-width: 220px; margin-bottom: 18px; padding: 8px; display: flex; align-items: center; gap: 10px; border-radius: 14px; text-decoration: none; transition: background .15s; }
+.profile-link:hover, .rail nav a:hover { background: var(--hover); }
+.profile-link img { width: 46px; height: 46px; flex: 0 0 auto; border-radius: 50%; object-fit: cover; }
+.profile-link span, .profile-link b, .profile-link small { min-width: 0; display: block; }
+.profile-link b { overflow: hidden; font-size: 13px; line-height: 1.25; text-overflow: ellipsis; white-space: nowrap; }
+.profile-link small { margin-top: 2px; color: var(--secondary); font-size: 11px; }
 .rail nav { display: grid; gap: 7px; }
 .rail nav a { width: max-content; max-width: 100%; height: 52px; padding: 0 15px; display: flex; align-items: center; gap: 19px; border-radius: 999px; text-decoration: none; font-size: 19px; font-weight: 400; transition: background .15s; }
 .rail nav span { width: 26px; text-align: center; font-size: 25px; line-height: 1; }
@@ -33,13 +37,18 @@ a { color: inherit; }
 .post:hover { background: var(--hover); }
 .avatar, .mini-avatar { display: grid; place-items: center; flex: 0 0 auto; border-radius: 50%; color: white; background: #0f1419; font-size: 12px; font-weight: 800; }
 .avatar { width: 42px; height: 42px; }
+.profile-avatar { overflow: hidden; }
+.profile-avatar img { width: 100%; height: 100%; display: block; object-fit: cover; }
 .model-avatar { font-size: 16px; }
 .sol-avatar { background: linear-gradient(145deg, #15181b, #52606b); }
 .terra-avatar { background: linear-gradient(145deg, #1d9bf0, #0069a8); }
 .luna-avatar { background: linear-gradient(145deg, #7856ff, #4c2bd9); }
 .post-content { min-width: 0; }
 .author { min-height: 22px; display: flex; align-items: baseline; gap: 5px; overflow: hidden; white-space: nowrap; }
-.author strong { font-size: 14px; font-weight: 700; }
+.author strong, .author-name { color: var(--text); font-size: 14px; font-weight: 700; text-decoration: none; }
+.author-name:hover { text-decoration: underline; }
+.handle { color: var(--secondary); font-size: 13px; text-decoration: none; }
+.handle:hover { text-decoration: underline; }
 .author span { overflow: hidden; color: var(--secondary); font-size: 13px; text-overflow: ellipsis; }
 .post p { margin: 2px 0 11px; font-size: 14px; line-height: 1.47; }
 .post .lead { margin-top: 4px; font-size: 20px; line-height: 1.3; font-weight: 650; letter-spacing: -.025em; }
@@ -88,6 +97,8 @@ footer a:hover { text-decoration: underline; }
 @media (max-width: 1080px) {
   .layout { grid-template-columns: 88px 620px 1fr; gap: 20px; }
   .rail { padding-left: 16px; }
+  .profile-link { width: 54px; padding: 4px; }
+  .profile-link span { display: none; }
   .rail nav a { width: 52px; padding: 0 13px; }
   .rail nav b { display: none; }
   .sidebar { padding-right: 14px; }
