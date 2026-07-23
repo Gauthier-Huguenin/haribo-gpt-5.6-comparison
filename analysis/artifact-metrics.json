@@ -1,0 +1,35 @@
+{
+  "luna": {
+    "asset_bytes": 1286501,
+    "css_bytes": 8316,
+    "dom_elements": 140,
+    "h1_elements": 1,
+    "html_bytes": 5884,
+    "images": 7,
+    "javascript_bytes": 219,
+    "landmarks": 5,
+    "links": 11
+  },
+  "sol": {
+    "asset_bytes": 3910136,
+    "css_bytes": 18960,
+    "dom_elements": 260,
+    "h1_elements": 1,
+    "html_bytes": 10645,
+    "images": 12,
+    "javascript_bytes": 2556,
+    "landmarks": 5,
+    "links": 14
+  },
+  "terra": {
+    "asset_bytes": 733983,
+    "css_bytes": 10657,
+    "dom_elements": 147,
+    "h1_elements": 1,
+    "html_bytes": 5134,
+    "images": 5,
+    "javascript_bytes": 333,
+    "landmarks": 5,
+    "links": 11
+  }
+}
